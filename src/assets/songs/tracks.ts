@@ -9,6 +9,7 @@ export type Track = {
   title: string;
   artist: string;
   src: string;
+  labelColor: string;
 };
 
 export const tracks: Track[] = [
@@ -17,30 +18,35 @@ export const tracks: Track[] = [
     title: 'Give It Away',
     artist: 'Red Hot Chili Peppers',
     src: giveItAway,
+    labelColor: '#e63946',
   },
   {
     id: 'aces-high',
     title: 'Aces High',
     artist: 'Iron Maiden',
     src: acesHigh,
+    labelColor: '#f4a261',
   },
   {
     id: 'seek-and-destroy',
     title: 'Seek & Destroy',
     artist: 'Metallica',
     src: seekAndDestroy,
+    labelColor: '#6c757d',
   },
   {
     id: 'never-gonna-give-you-up',
     title: 'Never Gonna Give You Up',
     artist: 'Rick Astley',
     src: neverGonnaGiveYouUp,
+    labelColor: '#ff70a6',
   },
   {
     id: 'welcome-to-the-jungle',
     title: 'Welcome to the Jungle',
     artist: "Guns N' Roses",
     src: welcomeToTheJungle,
+    labelColor: '#fcbf49',
   },
 ];
 
